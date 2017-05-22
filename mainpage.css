@@ -1,0 +1,97 @@
+body {
+	min-width: 900px;
+}
+
+* {
+	font-family: Verdana, serif;
+}
+
+/*div {
+	border: 1px dashed;
+}*/
+
+ul {
+	list-style-type:none;
+}
+
+li {
+	margin: 2px;
+}
+
+h3 {
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+#cover-img {
+	max-width:100%;
+	cursor:hand;
+	cursor:pointer;
+}
+
+#gallery-button {
+	border-radius: 0.2em;
+	position: absolute;
+	margin-top: -4em;
+	margin-left: 4em;
+	padding: 0.4em;
+	background-color: white;
+	font-size: 1.5em;
+	cursor:hand;
+	cursor:pointer;
+}
+
+#pricing {
+	border-radius: 0.3em;
+	width: 15em;
+	padding: 5px 5px 25px 5px;
+	border: 1px solid gray;
+	float: right;
+	text-align: center;
+}
+
+#description {
+	float:left;
+	padding-left:10%;
+	width: 60%;
+}
+
+.subsection{
+	text-align: left;
+}
+
+#navbar {
+}
+
+.navitem {
+	float: left;
+	padding: 10px;
+}
+
+#description-header {
+	clear: both;
+	/*padding-left: 10%;*/
+}
+
+#description-content {
+	clear:both;
+	width: 100%;
+}
+
+#title {
+	float:left;
+	width: 80%;
+}
+
+#owner {
+	float:right;
+}
+
+#map-img {
+	max-width: 100%;
+}
+
+#footer {
+	clear: both;
+	height: 40px;
+}
